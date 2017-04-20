@@ -2554,16 +2554,12 @@
 
 	}
 
-.skill-list {
-	display: inline-flex;
-}
-
 .skill-list li {
-  margin: 7px;
+  display: inline;
+  margin: 10px;
   padding: 5px 10px;
   color: #000;
   background: white;
-  list-style: none;
   cursor: default;
 }
 
