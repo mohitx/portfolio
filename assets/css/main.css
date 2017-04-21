@@ -2553,7 +2553,10 @@
 				}
 
 	}
-
+.skill-list {
+		display: flex;
+		flex-wrap: wrap;
+}
 .skill-list li {
   display: inline;
   margin: 10px;
@@ -2565,8 +2568,10 @@
 
 article.item:hover {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	transition: .2s;
 }
 
 .skill-list li:hover {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	transition: .2s;
 }
